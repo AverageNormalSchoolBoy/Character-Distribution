@@ -92,6 +92,8 @@ wn=('w'*(w+1))
 xn=('x'*(x+1))
 yn=('y'*(y+1))
 zn=('z'*(z+1))
-lst=[an, bn]
+lst=[a, b]
 lst.sort()
+a=an
+b=bn
 print("\n" .join(lst))
