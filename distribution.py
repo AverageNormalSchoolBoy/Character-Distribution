@@ -92,9 +92,9 @@ wn=('w'*(w+1))
 xn=('x'*(x+1))
 yn=('y'*(y+1))
 zn=('z'*(z+1))
-lst=[a, b]
-lst1=[an, bn]
+lst=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o p, q, r, s, t, u, v, w, x, y, z]
+lst1=[an, bn, cn, dn, en, fn, gn, hn, inn, jn, kn, ln, mn, nn, on, pn, qn, rn, sn, tn, wn, xn, yn, zn]
 lst2=zip(lst, lst1)
 lst3=sorted(lst2, key=lambda x: x[-1], reverse=True)
 lst, lst1 = zip(*lst3)
-print("/n", .join(lst1))
+print("\n" .join(lst1))
