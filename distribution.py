@@ -95,5 +95,6 @@ zn=('z'*(z+1))
 lst=[a, b]
 lst1=[an, bn]
 lst2=zip(lst, lst1)
-lst.sort()
-print(list(lst2))
+lst3=sorted(lst2, key=lambda x: x[-1], reverse=True)
+lst, lst1 = zip(*list3)
+print(lst1)
