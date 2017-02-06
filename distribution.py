@@ -93,7 +93,7 @@ xn=('x'*(x+1))
 yn=('y'*(y+1))
 zn=('z'*(z+1))
 lst=[a, b]
+lst1=[an, bn]
+lst2=zip(lst, lst1)
 lst.sort()
-a=an
-b=bn
-print("\n" .join(lst))
+print(list(lst2))
