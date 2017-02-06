@@ -61,10 +61,11 @@ s= string.count('s')
 t= string.count('t')
 u= string.count('u')
 v= string.count('v')
+w= string.count('w')
 x= string.count('x')
 y= string.count('y')
 z= string.count('z')
-w= string.count('w')
+
 
 an=('a'*(a))
 bn=('b'*(b))
@@ -92,9 +93,14 @@ wn=('w'*(w))
 xn=('x'*(x))
 yn=('y'*(y))
 zn=('z'*(z))
-lst1=[a*100+1, b*100+2, c*100+3, d*100+4, e*100+5, f*100+6, g*100+7, h*100+8, i*100+9, j*100+10, k*100+11, l*100+12, m*100+13, n*100+14, o*100+15, p*100+16, q*100+17, r*100+18, s*100+19, t*100+20, u*100+21, v*100+22, w*100+23, x*100+24, y*100+25, z*100+26]
-lst=[an, bn, cn, dn, en, fn, gn, hn, inn, jn, kn, ln, mn, nn, on, pn, qn, rn, sn, tn, wn, xn, yn, zn]
+
+
+lst1=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+print(lst1)
+lst=[an, bn, cn, dn, en, fn, gn, hn, inn, jn, kn, ln, mn, nn, on, pn, qn, rn, sn, tn, un, vn, wn, xn, yn, zn]
 lst2=zip(lst, lst1)
 lst3=sorted(lst2, key=lambda x: x[1], reverse=True)
 lst, lst1 = zip(*lst3)
-print("\n" .join(lst))
+print(list(lst3))
+print(string.count('y'))
+print(y)
