@@ -38,7 +38,7 @@ Notice about this example:
 """
 string = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "{0}" is: '.format(string))
-string.lower()
+string=string.lower()
 a = string.count('a')
 b= string.count('b')
 c= string.count('c')
