@@ -96,5 +96,5 @@ lst=[a, b]
 lst1=[an, bn]
 lst2=zip(lst, lst1)
 lst3=sorted(lst2, key=lambda x: x[-1], reverse=True)
-lst, lst1 = zip(*list3)
-print(lst1)
+lst, lst1 = zip(*lst3)
+print("/n", .join(lst1))
